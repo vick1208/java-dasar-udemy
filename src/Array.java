@@ -14,15 +14,9 @@ public class Array {
         System.out.println(stringArray[0]);
 //      Alternatif membuat array
         String[] stringArray2 = new String[3];
-        String[] namaNama = {
-                "Eko", "Kurniawan", "Khannedy"
-        };
+        stringArray2[0] = "Mercedes";
+        System.out.println(stringArray2[0]);
 
-        namaNama[0] = null;
-
-        int[] arrayInt = new int[]{
-                1, 2, 3, 4, 5, 6, 7, 8, 9, 10
-        };
 
         long[] arrayLong = {
                 10L, 20L, 30L
@@ -34,8 +28,8 @@ public class Array {
         String[][] members = {
                 {"Eko", "Kurniawan"},
                 {"Budi", "Nugraha"},
-                {"Joko","Nugroho"},
-                {"Richard","Stefani"}
+                {"Joko", "Nugroho"},
+                {"Richard", "Stefani"}
         };
 
         System.out.println(members[0][0]);

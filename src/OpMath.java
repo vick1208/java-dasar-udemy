@@ -1,13 +1,13 @@
 public class OpMath {
     public static void main(String[] args) {
         int a = 100;
-        int b = 2;
+        int b = 21;
 
         System.out.println(a + b);
         System.out.println(a - b);
         System.out.println(a * b);
         System.out.println(a / b);
-        System.out.println(a % b+1);
+        System.out.println(a % b);
 
         int c = 3;
 
