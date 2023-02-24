@@ -13,7 +13,7 @@ public class Array {
         stringArray[0] = "Vicky";
         System.out.println(stringArray[0]);
 //      Alternatif membuat array
-//        String[] stringArray2 = new String[3];
+        String[] stringArray2 = new String[3];
         String[] namaNama = {
                 "Eko", "Kurniawan", "Khannedy"
         };
