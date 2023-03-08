@@ -14,6 +14,13 @@ public class MethodReturnVal {
         return total;
     }
 
+    /**
+     *
+     * @param value1
+     * @param operasi
+     * @param value2
+     * @return
+     */
     static int hitung(int value1, String operasi, int value2){
         switch (operasi){
             case "+":
